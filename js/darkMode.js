@@ -74,7 +74,6 @@ function chooseColor(numberColor, nOriginalColor, domButton) {
 }
 
 function initValues() {
-  debugger;
   let domButton = document.getElementById("button1");
   var isNumberColor = localStorage.getItem("numberColor");
   if (isNumberColor) {
